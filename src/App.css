@@ -489,6 +489,14 @@ button:active .button-inner {
         body {
             background-color: lightblue;
         }
+        .titleTop {
+          color: coral;
+          text-shadow: 1.4px 1.4px 3px black;
+          font-size: 15vw; /* Adjust the value as needed */
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
         .overBackground {
           background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("/hq720.jpg");
         }
