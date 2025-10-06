@@ -490,14 +490,10 @@ button:active .button-inner {
             background-color: lightblue;
         }
         .overBackground {
-          background-image: url("/hq720.jpg") ;
-          background-blend-mode: soft-light;
-          background-color: rgb(195, 255, 235);
+          background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("/hq720.jpg");
         }
         .underBackground {
-          background-image: url("/down.jpg") ;
-          background-blend-mode: soft-light;
-          background-color: rgb(195, 255, 235);
+          background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("/down.jpg");
         }
         .first3Cards {
           display: flex;
