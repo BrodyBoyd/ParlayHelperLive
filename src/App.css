@@ -11,6 +11,7 @@ body {
   font-family: 'Fugaz One', sans-serif;
   
 }
+
 .overBackground {
 background-image: url("/hq720.jpg") ;
    background-blend-mode: soft-light;
@@ -40,14 +41,14 @@ background-image: url("/hq720.jpg") ;
 .hit {
   color: green;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 5em;
-  ;
+  font-size: 8vw;
+  
 }
 
 .miss {
   color: red;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 5em;
+  font-size: 8vw;
 }
 .missBet {
   color: red;
@@ -114,7 +115,10 @@ background-image: url("/hq720.jpg") ;
   
 }
 .recordTitle {
-  font-size: 4.4em;
+  font-size: 9vw; /* Adjust the value as needed */
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
 }
 .recordBox {
   margin-top: 20px;
@@ -479,22 +483,43 @@ button:active .button-inner {
   color: hsla(0, 0%, 0%, .5);
   font-size: 16px;
 }
+
 @media screen and (max-width: 1326px) {
-  .boxTitle {
-  font-size: 1.6em;
-}
-.recommendation {
-        font-size: 1.3em;
-        }
-}
-@media screen and (max-width: 1035px) {
         /* CSS rules for screens with a maximum width of 768px */
         body {
             background-color: lightblue;
         }
+        .overBackground {
+          background-image: url("/hq720.jpg") ;
+          background-blend-mode: soft-light;
+          background-color: rgb(195, 255, 235);
+        }
+        .underBackground {
+          background-image: url("/down.jpg") ;
+          background-blend-mode: soft-light;
+          background-color: rgb(195, 255, 235);
+        }
         .first3Cards {
           display: flex;
           flex-direction: column;
+        }
+        .boxTitle {
+          font-size: 15vw; /* Adjust the value as needed */
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        .recommendation {
+          font-size: 9vw; /* Adjust the value as needed */
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        .bet {
+          font-size: 3vw;
+        }
+        .weekTitle {
+          font-size: 4vw;
         }
 
         .TopCard {
@@ -509,14 +534,38 @@ button:active .button-inner {
         .TopCard {
           max-width: 100%;
         }
+        /* Mobile ordering */
+        .positionCard { order: 1; }
+        .statCard { order: 2; }
+        .lineCard { order: 3; }
+        .reccomendationCard {
+           order: 4; 
+           width: 90%;
+        }
+        .recordBox { order: 5; }
         .recordWeeks {
           display: flex;
           flex-direction: column;
-          max-width: 100%;
         }
         .recordBox {
           margin-top: 20px;
-          padding: 5px;
-          max-width: 100%;
+          padding: 3px;
+          width: 100%;
+          align-items: center;
+        }
+        .week {
+          width: 93%;
+        }
+        .hit {
+          color: green;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          font-size: 20vw;
+          
+        }
+
+        .miss {
+          color: red;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          font-size: 20vw;
         }
     }

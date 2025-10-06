@@ -412,7 +412,7 @@ function App() {
   <div className="container-flex everything" style={{ display: 'flex', width: '98vw', gap: '0', padding: '0', margin: '0' }}>
   <div className='leftSide'>
     <div className='first3Cards'>
-  <div className="card border-3 border-black p-3 text-center TopCard ">
+  <div className="card border-3 border-black p-3 text-center TopCard positionCard" >
           <p className='boxTitle'>Position</p>
           
           <label htmlFor='qb' className='option rad-label'> 
@@ -436,7 +436,7 @@ function App() {
             <div class="rad-text">Tight End</div>
           </label><br />
         </div>
-  <div className="card border-3 border-black p-3 text-center TopCard " >
+  <div className="card border-3 border-black p-3 text-center TopCard statCard" >
           <p className='boxTitle'>Stat</p>
           {selectedPosition && statOptions[selectedPosition] ? (
             statOptions[selectedPosition].map(option => (
@@ -452,7 +452,7 @@ function App() {
             <p>Please select a position to see relevant stats.</p>
           )}
         </div>
-  <div className="card border-3 border-black p-3 text-center TopCard" >
+  <div className="card border-3 border-black p-3 text-center TopCard lineCard" >
           <p className='boxTitle'>Player/Line</p>
           <br />
           <input class="c-checkbox" type="checkbox" id="checkbox"></input>
@@ -493,15 +493,15 @@ function App() {
           
           </div>
         </div>
-        <div className='card border-3 border-black  m-5 recordBox'>
+        <div className='card border-3 border-black recordBox'>
         <h1 className='text-center recordTitle'>Record</h1>
         <div className='m-3 text-center'>
-          <p>Overall: 22-24</p>
-          <p>Last Week: 13-14</p>
+          <p className='weekTitle'>Overall: 22-24</p>
+          <p className='weekTitle'>Last Week: 13-14</p>
         </div>
         <div className="container-flex recordWeeks" >
         <div className='card border-black text-center  m-3 week'>
-          <h2 className='m-2'>Week 3 Bets</h2>
+          <h2 className='m-2 weekTitle'>Week 3 Bets</h2>
           <p className='bet missBet'>Josh Allen Over 233.5 pass yards</p>
           <p className='bet missBet'>De'Von Achane over 39.5 rec yards</p>
           <p className='bet hitBet'>Daniel Jones over 210.5 pass yards</p>
@@ -509,7 +509,7 @@ function App() {
           <p className='bet missBet'>Justin Herbert over 19.5 rush yards</p>
         </div>
         <div className='card border-black text-center m-3 week'>
-          <h2 className='m-2'>Week 4 Bets</h2>
+          <h2 className='m-2 weekTitle'>Week 4 Bets</h2>
           <p className='bet missBet'>JSN over 81.5 Yds</p>
           <p className='bet hitBet'>Kyler Murray over 28.5 Rush yds</p>
           <p className='bet hitBet'>James Cook over 0.5 Td</p>
@@ -528,7 +528,7 @@ function App() {
 
         </div>
         <div className='card border-black text-center m-3 week'>
-          <h2 className='m-2'>Week 5 Bets</h2>
+          <h2 className='m-2 weekTitle'>Week 5 Bets</h2>
           <p className='bet hitBet'>Jerry Jeudy under .5 Td</p>
           <p className='bet missBet'>Puka Nacua Over 97.5 rec yards</p>
           <p className='bet hitBet'>Puka Nacua Over 8.5 receptions</p>
@@ -559,32 +559,32 @@ function App() {
           <p className='bet '></p>
           </div>
           <div className='card border-black text-center  m-3 week'>
-          <h2 className='m-2'>Week 6 Bets</h2>
+          <h2 className='m-2 weekTitle'>Week 6 Bets</h2>
           <p className='bet'>none placed</p>
           </div>
       </div>
       <div className="container-flex recordWeeks" >
         <div className='card border-black text-center  m-3 week'>
-          <h2 className='m-2'>Week 7 Bets</h2>
+          <h2 className='m-2 weekTitle'>Week 7 Bets</h2>
           <p className='bet'>none placed</p>
         </div>
         <div className='card border-black text-center  m-3 week'>
-          <h2 className='m-2'>Week 8 Bets</h2>
+          <h2 className='m-2 weekTitle'>Week 8 Bets</h2>
           <p className='bet'>none placed</p>
         </div>
         <div className='card border-black text-center  m-3 week'>
-          <h2 className='m-2'>Week 9 Bets</h2>
+          <h2 className='m-2 weekTitle'>Week 9 Bets</h2>
           <p className='bet'>none placed</p>
           </div>
           <div className='card border-black text-center m-3 week'>
-          <h2 className='m-2'>Week 10 Bets</h2>
+          <h2 className='m-2 '>Week 10 Bets</h2>
           <p className='bet'>none placed</p>
           </div>
       </div>
       </div>
       </div>
       
-        <div className={`card border-3 border-black p-3 text-center TopCard ${result === 'Over' ? 'takeOver' : result === 'Under' ? 'takeUnder' : 'DontBet'}`}>
+        <div className={`card border-3 border-black p-3 text-center reccomendationCard TopCard ${result === 'Over' ? 'takeOver' : result === 'Under' ? 'takeUnder' : 'DontBet'}`}>
           <p className=' recommendation'>Recommendation</p>
           <br />
           
