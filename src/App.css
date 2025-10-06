@@ -498,10 +498,10 @@ button:active .button-inner {
           text-overflow: ellipsis;
         }
         .overBackground {
-          background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("/hq720.jpg");
+          background-image: linear-gradient(to right rgba(0, 255, 51, 1), rgba(236, 252, 237, 0.9));
         }
         .underBackground {
-          background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("/down.jpg");
+          background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
         }
         .first3Cards {
           display: flex;
