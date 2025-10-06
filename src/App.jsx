@@ -489,8 +489,7 @@ function App() {
               <span>Submit</span>
             </div>
           </div>
-          </button>
-          
+          </button>          
           </div>
         </div>
         <div className='card border-3 border-black recordBox'>
