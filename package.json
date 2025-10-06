@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "start": "serve -s dist",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "start": "npm run build && node index.js"
+    "preview": "vite preview"
   },
   "dependencies": {
     "express": "^5.1.0",
