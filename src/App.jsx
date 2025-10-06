@@ -453,7 +453,7 @@ function App() {
           )}
         </div>
   <div className="card border-3 border-black p-3 text-center TopCard lineCard" >
-          <p className='boxTitle'>Player/Line</p>
+          <p className='lineTitle'>Player/Line</p>
           <br />
           <input class="c-checkbox" type="checkbox" id="checkbox"></input>
           <div class="c-formContainer">

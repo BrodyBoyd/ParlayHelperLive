@@ -78,6 +78,12 @@ background-image: url("/hq720.jpg") ;
   border-radius: 90px 92px 55px 2px;
   background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(134, 134, 134, 0.2));
 }
+.lineTitle {
+  font-size: 2.1vw; /* Adjust the value as needed */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .takeOver {
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(38, 255, 0, 0.6));
 }
@@ -119,6 +125,12 @@ background-image: url("/hq720.jpg") ;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+}
+.bet {
+  font-size: .7vw;
+}
+.weekTitle {
+  font-size:2vw;
 }
 .recordBox {
   margin-top: 20px;
@@ -493,6 +505,12 @@ button:active .button-inner {
           color: coral;
           text-shadow: 1.4px 1.4px 3px black;
           font-size: 15vw; /* Adjust the value as needed */
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        .lineTitle {
+          font-size: 11vw; /* Adjust the value as needed */
           white-space: nowrap;
           overflow: hidden;
           text-overflow: ellipsis;
