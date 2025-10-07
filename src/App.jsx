@@ -35,7 +35,9 @@ const topQBs2024 = [
   {name: "Mac Jones", espnId: 4241464},
   {name: "Jaxson Dart", espnId: 4689114},
   {name: "Carson Wentz", espnId: 2573079},
-  {name: "Jake Browning", espnId: 3886812}
+  {name: "Jake Browning", espnId: 3886812},
+  {name: "Cam Ward", espnId: 4688380},
+  {name: "Dillon Gabriel", espnId: 4427238}
 ];
 
 const topRecievers2025 = [
@@ -89,7 +91,10 @@ const topRecievers2025 = [
   { name: "Darren Waller", espnId: "2576925"},
   { name: "Wan'Dale Robinson", espnId: "4569587"},
   { name: "Evan Engram", espnId: "3051876"},
-  { name: "Troy Franklin", espnId: "4431280" }
+  { name: "Troy Franklin", espnId: "4431280" },
+  { name: "Dallas Godert", espnId: "3121023"},
+  { name: "Theo Johnson", espnId: "4429148"},
+  { name: "Jahan Dotson", espnId: "4361409"}
 
 ]
 
@@ -559,7 +564,24 @@ function App() {
           </div>
           <div className='card border-black text-center  m-3 week'>
           <h2 className='m-2 weekTitle'>Week 6 Bets</h2>
-          <p className='bet'>none placed</p>
+          <p className='bet '>Saquon Barkley Under 85.5 rush yds</p>
+          <p className='bet '>Theo Johnson Under 30.5 rec yds</p>
+          <p className='bet '>J.K. Dobbins over 70.5 rush yds</p>
+          <p className='bet '>Garret Wilson over 56.5 rec yds</p>
+          <p className='bet '>Javonte Williams over .5 rush+rec TD</p>
+          <p className='bet '>Jaylen Warren Under 48.5 Rush yds </p>
+          <p className='bet '>Tony Pollard over 54.5 rush yds</p>
+          <p className='bet '>Chase Brown Under 45.5 rush yds</p>
+          <p className='bet '>Jordan Love over 8.5 Rush yds</p>
+          <p className='bet '>Saquon Barkley Over 2.5 Receptions</p>
+          <p className='bet '>Garret Wilson Over 4.5 Receptions</p>
+          <p className='bet '></p>
+          <p className='bet '></p>
+          <p className='bet '></p>
+          <p className='bet '></p>
+          <p className='bet '></p>
+          <p className='bet '></p>
+          <p className='bet '></p>
           </div>
       </div>
       <div className="container-flex recordWeeks" >
