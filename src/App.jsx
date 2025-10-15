@@ -500,8 +500,8 @@ function App() {
         <div className='card border-3 border-black recordBox'>
         <h1 className='text-center recordTitle'>Record</h1>
         <div className='m-3 text-center'>
-          <p className='weekTitle'>Overall: 22-24</p>
-          <p className='weekTitle'>Last Week: 13-14</p>
+          <p className='weekTitle'>Overall: 26-31</p>
+          <p className='weekTitle'>Last Week: 4-7</p>
         </div>
         <div className="container-flex recordWeeks" >
         <div className='card border-black text-center  m-3 week'>
@@ -564,17 +564,17 @@ function App() {
           </div>
           <div className='card border-black text-center  m-3 week'>
           <h2 className='m-2 weekTitle'>Week 6 Bets</h2>
-          <p className='bet '>Saquon Barkley Under 85.5 rush yds</p>
-          <p className='bet '>Theo Johnson Under 30.5 rec yds</p>
-          <p className='bet '>J.K. Dobbins over 70.5 rush yds</p>
-          <p className='bet '>Garret Wilson over 56.5 rec yds</p>
-          <p className='bet '>Javonte Williams over .5 rush+rec TD</p>
-          <p className='bet '>Jaylen Warren Under 48.5 Rush yds </p>
-          <p className='bet '>Tony Pollard over 54.5 rush yds</p>
-          <p className='bet '>Chase Brown Under 45.5 rush yds</p>
-          <p className='bet '>Jordan Love over 8.5 Rush yds</p>
-          <p className='bet '>Saquon Barkley Over 2.5 Receptions</p>
-          <p className='bet '>Garret Wilson Over 4.5 Receptions</p>
+          <p className='bet hitBet'>Saquon Barkley Under 85.5 rush yds</p>
+          <p className='bet hitBet'>Theo Johnson Under 30.5 rec yds</p>
+          <p className='bet missBet'>J.K. Dobbins over 70.5 rush yds</p>
+          <p className='bet missBet'>Garret Wilson over 56.5 rec yds</p>
+          <p className='bet missBet'>Javonte Williams over .5 rush+rec TD</p>
+          <p className='bet missBet'>Jaylen Warren Under 48.5 Rush yds </p>
+          <p className='bet missBet'>Tony Pollard over 54.5 rush yds</p>
+          <p className='bet hitBet'>Chase Brown Under 45.5 rush yds</p>
+          <p className='bet hitBet'>Jordan Love over 8.5 Rush yds</p>
+          <p className='bet missBet'>Saquon Barkley Over 2.5 Receptions</p>
+          <p className='bet missBet'>Garret Wilson Over 4.5 Receptions</p>
           <p className='bet '></p>
           <p className='bet '></p>
           <p className='bet '></p>
