@@ -37,7 +37,8 @@ const topQBs2024 = [
   {name: "Carson Wentz", espnId: 2573079},
   {name: "Jake Browning", espnId: 3886812},
   {name: "Cam Ward", espnId: 4688380},
-  {name: "Dillon Gabriel", espnId: 4427238}
+  {name: "Dillon Gabriel", espnId: 4427238},
+  {name: "Trevor Lawrence", espnId: 4360310}
 ];
 
 const topRecievers2025 = [
@@ -94,8 +95,11 @@ const topRecievers2025 = [
   { name: "Troy Franklin", espnId: "4431280" },
   { name: "Dallas Godert", espnId: "3121023"},
   { name: "Theo Johnson", espnId: "4429148"},
-  { name: "Jahan Dotson", espnId: "4361409"}
-
+  { name: "Jahan Dotson", espnId: "4361409"},
+  { name: "Tee Higgins", espnId: "4239993"},
+  { name: "Stephon Diggs", espnId: "2976212"},
+  { name: "Travis Kelce", espnId: "15847"},
+  { name: "Rome Odunze", espnId: "4431299"}
 ]
 
 const topRunningBacks2025 = [
@@ -120,7 +124,7 @@ const topRunningBacks2025 = [
   { rank: 17, name: "Breece Hall", espnId: 4427366 },
   { rank: 18, name: "Omarion Hampton", espnId: 4685382 },
   { rank: 19, name: "Alvin Kamara", espnId: 3054850 },
-  { rank: 20, name: "D’Andre Swift", espnId: 4430741 },
+  { rank: 20, name: "D’Andre Swift", espnId: 4259545 },
   { rank: 21, name: "RJ Harvey", espnId: 4568490 },
   { rank: 22, name: "David Montgomery", espnId: 4035538 },
   { rank: 23, name: "Brian Robinson Jr.", espnId: 4241474 },
@@ -147,7 +151,7 @@ const topRunningBacks2025 = [
   { rank: 44, name: "Rico Dowdle", espnId: 4038815 },
   { rank: 45, name: "Aaron Jones", espnId: 3042519 },
   { rank: 46, name: "Jacory Croskey-Merritt", espnId: 4575131 },
-  { rank: 47, name: "Woody Marks",espnId: 4429059 }
+  { rank: 47, name: "Woody Marks",espnId: 4429059 },
 ];
 
 function App() {
@@ -575,19 +579,44 @@ function App() {
           <p className='bet hitBet'>Jordan Love over 8.5 Rush yds</p>
           <p className='bet missBet'>Saquon Barkley Over 2.5 Receptions</p>
           <p className='bet missBet'>Garret Wilson Over 4.5 Receptions</p>
-          <p className='bet '></p>
-          <p className='bet '></p>
-          <p className='bet '></p>
-          <p className='bet '></p>
-          <p className='bet '></p>
-          <p className='bet '></p>
-          <p className='bet '></p>
           </div>
       </div>
       <div className="container-flex recordWeeks" >
         <div className='card border-black text-center  m-3 week'>
           <h2 className='m-2 weekTitle'>Week 7 Bets</h2>
-          <p className='bet'>none placed</p>
+          <p className='bet'>Drake Maye over 227.5 pass yds</p>
+          <p className='bet'>Matthew Stafford Over 1.5 pass Tds</p>
+          <p className='bet'>Geno Smith over .5 pass Td</p>
+          <p className='bet'>Cam ward under 1.5 pass Td</p>
+          <p className='bet'>Chase Brown under 44.5 rush yds</p>
+          <p className='bet'>Saquon Barkley under 69.5 rush yds</p>
+          <p className='bet'>Tee Higgins under 47.5 rec yds</p>
+          <p className='bet'>Jonu Smith under 25.5 rec yds</p>
+          <p className='bet'>Theo Johnson Under 28.5 rec yds</p>
+          <p className='bet'>JSN over 78.5 rec yds</p>
+          <p className='bet'>D.K. Metcalf Under 4.5 receptions</p>
+          <p className='bet'>Tee Higgins under 4.5 receptions</p>
+          <p className='bet'>BTJ under 5.5 receptions</p>
+          <p className='bet'>D.K. Metcalf Over .5 Rush+Rec Td</p>
+          <p className='bet'>Chase Brown Under .5 Rush+Rec Td</p>
+          <p className='bet'>Rome Odunze over .5 Rush+Rec Td</p>
+          <p className='bet'>Breece Hall under .5 Rush+Rec Td</p>
+          <p className='bet'>Isaiah Pacheco under .5 Rush+Rec Td</p>
+          <p className='bet'>De'Von Achane over .5 Rush+Rec Td</p>
+          <p className='bet'>Alvin Kamara under .5 Rush+Rec Td</p>
+          <p className='bet'>Stephon Diggs under .5 Rush+Rec Td</p>
+          <p className='bet'>Darren Waller over .5 Rush+Rec Td</p>
+          <p className='bet'>Dallas Godert Over .5 Rush+ rec Td</p>
+          <p className='bet'>Jakobi Myers Under .5 Rush+Rec Td</p>
+          <p className='bet'>A.J. Brown under .5 Rush+Rec Td</p>
+          <p className='bet'>Calvin Ridley under .5 Rush+Rec Td</p>
+          <p className='bet'>Jerry Jeudy under .5 Rush+Rec Td</p>
+          <p className='bet'>DeVonta Smith under .5 Rush+Rec Td</p>
+          <p className='bet'></p>
+          <p className='bet'></p>
+          <p className='bet'></p>
+          <p className='bet'></p>
+          <p className='bet'></p>
         </div>
         <div className='card border-black text-center  m-3 week'>
           <h2 className='m-2 weekTitle'>Week 8 Bets</h2>
