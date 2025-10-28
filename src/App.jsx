@@ -99,7 +99,8 @@ const topRecievers2025 = [
   { name: "Tee Higgins", espnId: "4239993"},
   { name: "Stephon Diggs", espnId: "2976212"},
   { name: "Travis Kelce", espnId: "15847"},
-  { name: "Rome Odunze", espnId: "4431299"}
+  { name: "Rome Odunze", espnId: "4431299"},
+  { name: "D.J. Moore", espnId: "3915416"}
 ]
 
 const topRunningBacks2025 = [
@@ -504,8 +505,8 @@ function App() {
         <div className='card border-3 border-black recordBox'>
         <h1 className='text-center recordTitle'>Record</h1>
         <div className='m-3 text-center'>
-          <p className='weekTitle'>Overall: 37-46</p>
-          <p className='weekTitle'>Last Week: 11-15</p>
+          <p className='weekTitle'>Overall: 39-49</p>
+          <p className='weekTitle'>Last Week: 2-3</p>
         </div>
         <div className="container-flex recordWeeks" >
         <div className='card border-black text-center  m-3 week'>
@@ -619,7 +620,35 @@ function App() {
         </div>
         <div className='card border-black text-center  m-3 week'>
           <h2 className='m-2 weekTitle'>Week 8 Bets</h2>
-          <p className='bet'>none placed</p>
+          <p className='bet hitBet'>C.J. Stroud Over 200.5 pass yds</p>
+          <p className='bet missBet'>Mac Jones over 223.5 pass yds</p>
+          <p className='bet hitBet'>Drake Maye over 221.5 pass yds</p>
+          <p className='bet missBet'>Patrick Mahomes under 281.5 pass yds</p>
+          <p className='bet missBet'>Jordan Addison over 54.5 rec yds</p>
+          <p className='bet'></p>
+          <p className='bet'></p>
+          <p className='bet'></p>
+          <p className='bet'></p>
+          <p className='bet'></p>
+          <p className='bet'></p>
+          <p className='bet'></p>
+          <p className='bet'></p>
+          <p className='bet'></p>
+          <p className='bet'></p>
+          <p className='bet'></p>
+          <p className='bet'></p>
+          <p className='bet'></p>
+          <p className='bet'></p>
+          <p className='bet'></p>
+          <p className='bet'></p>
+          <p className='bet'></p>
+          <p className='bet'></p>
+          <p className='bet'></p>
+          <p className='bet'></p>
+          <p className='bet'></p>
+          <p className='bet'></p>
+          <p className='bet'></p>
+          <p className='bet'></p>
         </div>
         <div className='card border-black text-center  m-3 week'>
           <h2 className='m-2 weekTitle'>Week 9 Bets</h2>
