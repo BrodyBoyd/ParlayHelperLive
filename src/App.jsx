@@ -38,7 +38,9 @@ const topQBs2024 = [
   {name: "Jake Browning", espnId: 3886812},
   {name: "Cam Ward", espnId: 4688380},
   {name: "Dillon Gabriel", espnId: 4427238},
-  {name: "Trevor Lawrence", espnId: 4360310}
+  {name: "Trevor Lawrence", espnId: 4360310},
+  {name: "Jacoby Brissett", espnId: 2578570},
+  {name: "Tyler Shough", espnId: 4360689}
 ];
 
 const topRecievers2025 = [
@@ -100,12 +102,21 @@ const topRecievers2025 = [
   { name: "Stephon Diggs", espnId: "2976212"},
   { name: "Travis Kelce", espnId: "15847"},
   { name: "Rome Odunze", espnId: "4431299"},
-  { name: "D.J. Moore", espnId: "3915416"}
+  { name: "D.J. Moore", espnId: "3915416"},
+  { name: "Kyle Pitts", espnId: "4360248"},
+  { name: "Alec Pierce", espnId: "4360078"},
+  { name: "Mark Andrews", espnId: "3116365"},
+  { name: "T.J. Hockenson", espnId: "4036133"},
+  { name: "Darnell Washington", espnId: "4430802"},
+  { name: "Darnell Mooney", espnId: "4040655"},
+
+
 ]
 
 const topRunningBacks2025 = [
   { rank: 1, name: "Derrick Henry", espnId: 3043078 },
   { name: "Cam Skattebo", espnId: 4696981 },
+  { name: "Kimani Vidal", espnId: 4430968 },
   { name: "Quinshon Judkins", espnId: 4685702 },
   { rank: 2, name: "Saquon Barkley", espnId: 3929630 },
   { rank: 3, name: "Bijan Robinson", espnId: 4430807 },
@@ -505,83 +516,83 @@ function App() {
         <div className='card border-3 border-black recordBox'>
         <h1 className='text-center recordTitle'>Record</h1>
         <div className='m-3 text-center'>
-          <p className='weekTitle'>Overall: 39-49</p>
-          <p className='weekTitle'>Last Week: 2-3</p>
+          <p className='weekTitle'>Overall: 49-58</p>
+          <p className='weekTitle'>Last Week: 10-9</p>
         </div>
         <div className="container-flex recordWeeks" >
-        <div className='card border-black text-center  m-3 week'>
-          <h2 className='m-2 weekTitle'>Week 3 Bets</h2>
-          <p className='bet missBet'>Josh Allen Over 233.5 pass yards</p>
-          <p className='bet missBet'>De'Von Achane over 39.5 rec yards</p>
-          <p className='bet hitBet'>Daniel Jones over 210.5 pass yards</p>
-          <p className='bet missBet'>Jordan Love over 1.5 pass Tds</p>
-          <p className='bet missBet'>Justin Herbert over 19.5 rush yards</p>
-        </div>
-        <div className='card border-black text-center m-3 week'>
-          <h2 className='m-2 weekTitle'>Week 4 Bets</h2>
-          <p className='bet missBet'>JSN over 81.5 Yds</p>
-          <p className='bet hitBet'>Kyler Murray over 28.5 Rush yds</p>
-          <p className='bet hitBet'>James Cook over 0.5 Td</p>
-          <p className='bet hitBet'>Jonnu Smith Under 28.5 yds</p>
-          <p className='bet missBet'>Trey Mcbride Under 6.5 Receptions</p>
-          <p className='bet missBet'>Justin Jefferson Under 5.5 Receptions</p>
-          <p className='bet missBet'>D.K. Metcalf Under 4.5 Receptions</p>
-          <p className='bet hitBet'>Puka Nacua Over 7.5 Receptions</p>
-          <p className='bet hitBet'>Joe Flacco Under 1.5 Pass Tds</p>
-          <p className='bet missBet'>Michael Penix Under 1.5 Pass Tds</p>
-          <p className='bet hitBet'>Daniel Jones Over 206.5 Pass yds</p>
-          <p className='bet hitBet'>Daniel Jones Under 1.5 Pass Tds</p>
-          <p className='bet missBet'>Daniel Jones Under .5 Int</p>
-          <p className='bet hitBet'>Jonathon Taylor Over 15.5 Rec Yards</p>
-          
-
-        </div>
-        <div className='card border-black text-center m-3 week'>
-          <h2 className='m-2 weekTitle'>Week 5 Bets</h2>
-          <p className='bet hitBet'>Jerry Jeudy under .5 Td</p>
-          <p className='bet missBet'>Puka Nacua Over 97.5 rec yards</p>
-          <p className='bet hitBet'>Puka Nacua Over 8.5 receptions</p>
-          <p className='bet missBet'>Daniel Jones over 229.5 pass yds</p>
-          <p className='bet missBet'>Daniel Jones under 1.5 pass td</p>
-          <p className='bet hitBet'>Tua Tagovaiola over 1.5 rush yds</p>
-          <p className='bet hitBet'>Garrett Wilson over 60.5 rec yds</p>
-          <p className='bet hitBet'>Jonathon Taylor over 14.5 rec yds</p>
-          <p className='bet missBet'>Dak prescott over 34.5 pass att</p>
-          <p className='bet missBet'>Jordan Addison over 42.5 rec yds</p>
-          <p className='bet missBet'>Quentin Johnston over 64.5 Rec yds</p>
-          <p className='bet hitBet'>J.K. Dobbins Over 53.5 rush yds</p>
-          <p className='bet missBet'>Jaxson Dart under 174.5 pass yds</p>
-          <p className='bet missBet'>Jaylen Hurts under 191.5 pass yds</p>
-          <p className='bet missBet'>Jake Browning under 216.5 pass yds</p>
-          <p className='bet hitBet'>Drake Maye Over 221.5 pass yds</p>
-          <p className='bet hitBet'>Nick Chubb over 34.5 rush yds</p>
-          <p className='bet hitBet'>Woody Marks under 54.5 rush yds</p>
-          <p className='bet missBet'>Carson Wentz over 1.5 pass tds</p>
-          <p className='bet missBet'>Jaylen Waddle Under 56.5 rec yds</p>
-          <p className='bet missBet'>Darren Waller Under 28.5 rec yds</p>
-          <p className='bet missBet'>Justin Fields Under 26.5 pass att</p>
-          <p className='bet missBet'>Jake Browning under 33.5 pass att</p>
-          <p className='bet hitBet'>Geno Smith Over .5 int</p>
-          <p className='bet hitBet'>Justin Fields Under .5 int</p>
-          <p className='bet hitBet'>Jake browning over .5 int</p>
-          <p className='bet hitBet'>Jayden Daniels under .5 int</p>
-          <p className='bet '></p>
-          </div>
           <div className='card border-black text-center  m-3 week'>
-          <h2 className='m-2 weekTitle'>Week 6 Bets</h2>
-          <p className='bet hitBet'>Saquon Barkley Under 85.5 rush yds</p>
-          <p className='bet hitBet'>Theo Johnson Under 30.5 rec yds</p>
-          <p className='bet missBet'>J.K. Dobbins over 70.5 rush yds</p>
-          <p className='bet missBet'>Garret Wilson over 56.5 rec yds</p>
-          <p className='bet missBet'>Javonte Williams over .5 rush+rec TD</p>
-          <p className='bet missBet'>Jaylen Warren Under 48.5 Rush yds </p>
-          <p className='bet missBet'>Tony Pollard over 54.5 rush yds</p>
-          <p className='bet hitBet'>Chase Brown Under 45.5 rush yds</p>
-          <p className='bet hitBet'>Jordan Love over 8.5 Rush yds</p>
-          <p className='bet missBet'>Saquon Barkley Over 2.5 Receptions</p>
-          <p className='bet missBet'>Garret Wilson Over 4.5 Receptions</p>
+            <h2 className='m-2 weekTitle'>Week 3 Bets</h2>
+            <p className='bet missBet'>Josh Allen Over 233.5 pass yards</p>
+            <p className='bet missBet'>De'Von Achane over 39.5 rec yards</p>
+            <p className='bet hitBet'>Daniel Jones over 210.5 pass yards</p>
+            <p className='bet missBet'>Jordan Love over 1.5 pass Tds</p>
+            <p className='bet missBet'>Justin Herbert over 19.5 rush yards</p>
           </div>
-      </div>
+          <div className='card border-black text-center m-3 week'>
+            <h2 className='m-2 weekTitle'>Week 4 Bets</h2>
+            <p className='bet missBet'>JSN over 81.5 Yds</p>
+            <p className='bet hitBet'>Kyler Murray over 28.5 Rush yds</p>
+            <p className='bet hitBet'>James Cook over 0.5 Td</p>
+            <p className='bet hitBet'>Jonnu Smith Under 28.5 yds</p>
+            <p className='bet missBet'>Trey Mcbride Under 6.5 Receptions</p>
+            <p className='bet missBet'>Justin Jefferson Under 5.5 Receptions</p>
+            <p className='bet missBet'>D.K. Metcalf Under 4.5 Receptions</p>
+            <p className='bet hitBet'>Puka Nacua Over 7.5 Receptions</p>
+            <p className='bet hitBet'>Joe Flacco Under 1.5 Pass Tds</p>
+            <p className='bet missBet'>Michael Penix Under 1.5 Pass Tds</p>
+            <p className='bet hitBet'>Daniel Jones Over 206.5 Pass yds</p>
+            <p className='bet hitBet'>Daniel Jones Under 1.5 Pass Tds</p>
+            <p className='bet missBet'>Daniel Jones Under .5 Int</p>
+            <p className='bet hitBet'>Jonathon Taylor Over 15.5 Rec Yards</p>
+            
+
+          </div>
+          <div className='card border-black text-center m-3 week'>
+            <h2 className='m-2 weekTitle'>Week 5 Bets</h2>
+            <p className='bet hitBet'>Jerry Jeudy under .5 Td</p>
+            <p className='bet missBet'>Puka Nacua Over 97.5 rec yards</p>
+            <p className='bet hitBet'>Puka Nacua Over 8.5 receptions</p>
+            <p className='bet missBet'>Daniel Jones over 229.5 pass yds</p>
+            <p className='bet missBet'>Daniel Jones under 1.5 pass td</p>
+            <p className='bet hitBet'>Tua Tagovaiola over 1.5 rush yds</p>
+            <p className='bet hitBet'>Garrett Wilson over 60.5 rec yds</p>
+            <p className='bet hitBet'>Jonathon Taylor over 14.5 rec yds</p>
+            <p className='bet missBet'>Dak prescott over 34.5 pass att</p>
+            <p className='bet missBet'>Jordan Addison over 42.5 rec yds</p>
+            <p className='bet missBet'>Quentin Johnston over 64.5 Rec yds</p>
+            <p className='bet hitBet'>J.K. Dobbins Over 53.5 rush yds</p>
+            <p className='bet missBet'>Jaxson Dart under 174.5 pass yds</p>
+            <p className='bet missBet'>Jaylen Hurts under 191.5 pass yds</p>
+            <p className='bet missBet'>Jake Browning under 216.5 pass yds</p>
+            <p className='bet hitBet'>Drake Maye Over 221.5 pass yds</p>
+            <p className='bet hitBet'>Nick Chubb over 34.5 rush yds</p>
+            <p className='bet hitBet'>Woody Marks under 54.5 rush yds</p>
+            <p className='bet missBet'>Carson Wentz over 1.5 pass tds</p>
+            <p className='bet missBet'>Jaylen Waddle Under 56.5 rec yds</p>
+            <p className='bet missBet'>Darren Waller Under 28.5 rec yds</p>
+            <p className='bet missBet'>Justin Fields Under 26.5 pass att</p>
+            <p className='bet missBet'>Jake Browning under 33.5 pass att</p>
+            <p className='bet hitBet'>Geno Smith Over .5 int</p>
+            <p className='bet hitBet'>Justin Fields Under .5 int</p>
+            <p className='bet hitBet'>Jake browning over .5 int</p>
+            <p className='bet hitBet'>Jayden Daniels under .5 int</p>
+            <p className='bet '></p>
+            </div>
+            <div className='card border-black text-center  m-3 week'>
+            <h2 className='m-2 weekTitle'>Week 6 Bets</h2>
+            <p className='bet hitBet'>Saquon Barkley Under 85.5 rush yds</p>
+            <p className='bet hitBet'>Theo Johnson Under 30.5 rec yds</p>
+            <p className='bet missBet'>J.K. Dobbins over 70.5 rush yds</p>
+            <p className='bet missBet'>Garret Wilson over 56.5 rec yds</p>
+            <p className='bet missBet'>Javonte Williams over .5 rush+rec TD</p>
+            <p className='bet missBet'>Jaylen Warren Under 48.5 Rush yds </p>
+            <p className='bet missBet'>Tony Pollard over 54.5 rush yds</p>
+            <p className='bet hitBet'>Chase Brown Under 45.5 rush yds</p>
+            <p className='bet hitBet'>Jordan Love over 8.5 Rush yds</p>
+            <p className='bet missBet'>Saquon Barkley Over 2.5 Receptions</p>
+            <p className='bet missBet'>Garret Wilson Over 4.5 Receptions</p>
+            </div>
+        </div>
       <div className="container-flex recordWeeks" >
         <div className='card border-black text-center  m-3 week'>
           <h2 className='m-2 weekTitle'>Week 7 Bets</h2>
@@ -613,10 +624,6 @@ function App() {
           <p className='bet hitBet'>Jerry Jeudy under .5 Rush+Rec Td</p>
           <p className='bet missBet'>DeVonta Smith under .5 Rush+Rec Td</p>
           <p className='bet'></p>
-          <p className='bet'></p>
-          <p className='bet'></p>
-          <p className='bet'></p>
-          <p className='bet'></p>
         </div>
         <div className='card border-black text-center  m-3 week'>
           <h2 className='m-2 weekTitle'>Week 8 Bets</h2>
@@ -626,52 +633,58 @@ function App() {
           <p className='bet missBet'>Patrick Mahomes under 281.5 pass yds</p>
           <p className='bet missBet'>Jordan Addison over 54.5 rec yds</p>
           <p className='bet'></p>
-          <p className='bet'></p>
-          <p className='bet'></p>
-          <p className='bet'></p>
-          <p className='bet'></p>
-          <p className='bet'></p>
-          <p className='bet'></p>
-          <p className='bet'></p>
-          <p className='bet'></p>
-          <p className='bet'></p>
-          <p className='bet'></p>
-          <p className='bet'></p>
-          <p className='bet'></p>
-          <p className='bet'></p>
-          <p className='bet'></p>
-          <p className='bet'></p>
-          <p className='bet'></p>
-          <p className='bet'></p>
-          <p className='bet'></p>
-          <p className='bet'></p>
-          <p className='bet'></p>
-          <p className='bet'></p>
-          <p className='bet'></p>
-          <p className='bet'></p>
         </div>
         <div className='card border-black text-center  m-3 week'>
           <h2 className='m-2 weekTitle'>Week 9 Bets</h2>
-          <p className='bet'>Daniel Jones over 236.5 pass yds</p>
-          <p className='bet'>Aaron Rodgers under 233.5 pass yds</p>
-          <p className='bet'>Lamar Jackson over 1.5 pass Td</p>
-          <p className='bet'>Aaron Rodgers over 1.5 pass Td</p>
-          <p className='bet'>Justin Herbert over 1.5 pass Td</p>
-          <p className='bet'>Matthew Stafford over 1.5 pass Td</p>
-          <p className='bet'>Zay flowers Under .5 rush + rec Td</p>
-          <p className='bet'>Justin Jefferson Under .5 rush + rec Td</p>
-          <p className='bet'>Michael Pittman Jr over .5 rush + rec Td</p>
-          <p className='bet'>Stephon diggs Under .5 rush + rec Td</p>
-          <p className='bet'>Ricky Pearsall under .5 rush + rec Td</p>
-          <p className='bet'>Wan'Dale Robinson under .5 rush + rec Td</p>
-          <p className='bet'>De'Von Achane Over .5 rush + rec Td</p>
-          <p className='bet'>Jahmyr Gibbs Over .5 rush + rec Td</p>
-          <p className='bet'>Jonathon Taylor Over .5 rush + rec Td</p>
-          <p className='bet'>Jaylen Warren Under  .5 rush + rec Td</p>
-          <p className='bet'>Jonathon Taylor Over 18.5 rec yds</p>
-          <p className='bet'>Lamar Jackson Under 27.5 pass attempts</p>
-          <p className='bet'>Lamar Jackson Under 19.5 completions</p>
+          <p className='bet hitBet'>Daniel Jones over 236.5 pass yds</p>
+          <p className='bet hitBet'>Aaron Rodgers under 233.5 pass yds</p>
+          <p className='bet hitBet'>Lamar Jackson over 1.5 pass Td</p>
+          <p className='bet missBet'>Aaron Rodgers over 1.5 pass Td</p>
+          <p className='bet hitBet'>Justin Herbert over 1.5 pass Td</p>
+          <p className='bet hitBet'>Matthew Stafford over 1.5 pass Td</p>
+          <p className='bet hitBet'>Zay flowers Under .5 rush + rec Td</p>
+          <p className='bet missBet'>Justin Jefferson Under .5 rush + rec Td</p>
+          <p className='bet missBet'>Michael Pittman Jr over .5 rush + rec Td</p>
+          <p className='bet missBet'>Stephon diggs Under .5 rush + rec Td</p>
+          <p className='bet hitBet'>Ricky Pearsall under .5 rush + rec Td</p>
+          <p className='bet hitBet'>Wan'Dale Robinson under .5 rush + rec Td</p>
+          <p className='bet missBet'>De'Von Achane Over .5 rush + rec Td</p>
+          <p className='bet missBet'>Jahmyr Gibbs Over .5 rush + rec Td</p>
+          <p className='bet missBet'>Jonathon Taylor Over .5 rush + rec Td</p>
+          <p className='bet missBet'>Jaylen Warren Under  .5 rush + rec Td</p>
+          <p className='bet missBet'>Jonathon Taylor Over 18.5 rec yds</p>
+          <p className='bet hitBet'>Lamar Jackson Under 27.5 pass attempts</p>
+          <p className='bet hitBet'>Lamar Jackson Under 19.5 completions</p>
           <p className='bet'></p>
+          </div>
+          <div className='card border-black text-center m-3 week'>
+          <h2 className='m-2 '>Week 10 Bets</h2>
+          <p className='bet'>Daniel Jones Over 244.5 pass yds</p>
+          <p className='bet'>Aaron Rodgers Under 233.5 yds</p>
+          <p className='bet'>Lamar Jackson over 1.5 pass tds</p>
+          <p className='bet'>Justin Herbert over 1.5 pass tds</p>
+          <p className='bet'>Aaron Rodgers Over 1.5 pass tds </p>
+          <p className='bet'>Aaron Rodgers under 34.5 pass attempts</p>
+          <p className='bet'>Aaron Rodgers under 22.5 completions</p>
+          <p className='bet'>Geno Smith over .5 int</p>
+          <p className='bet'>Baker Mayfield under .5 int </p>
+          <p className='bet'>Lamar Jackson under .5 int</p>
+          <p className='bet'>Tua Tagovailoa over .5 int</p>
+          <p className='bet'>Justin Herbert over .5 int</p>
+          <p className='bet'>Rachaad White under 46.5 rush yds</p>
+          <p className='bet'>Tyler Shough under 14.5 rush yds</p>
+          <p className='bet'>Justin Herbert over 20.5 rush yds</p>
+          <p className='bet'>Aaron Rodgers over .5 rush yds</p>
+          <p className='bet'>Tyler Warren Over 45.5 rec yds</p>
+          <p className='bet'>Alec Pierce over 54.5 rec yds</p>
+          <p className='bet'>Theo Johnson under 36.5 rec yds</p>
+          <p className='bet'>Tetairoa McMillan over 48.5 rec yds</p>
+          <p className='bet'>Quentin Johnston over 35.5 rec yds</p>
+          <p className='bet'>Jonnu Smith Under 35.5 rec yds</p>
+          <p className='bet'>Jonathan Taylor over 17.5 rec yds</p>
+          <p className='bet'>Jaxon Smith-Njigba over 96.5 rec yds</p>
+          <p className='bet'>D.K. Metcalf under 4.5 receptions</p>
+          <p className='bet'>Darnell Washington over 1.5 receptions</p>
           <p className='bet'></p>
           <p className='bet'></p>
           <p className='bet'></p>
@@ -697,8 +710,22 @@ function App() {
           <p className='bet'></p>
           <p className='bet'></p>
           </div>
+        </div>
+        <div className="container-flex recordWeeks" >
           <div className='card border-black text-center m-3 week'>
-          <h2 className='m-2 '>Week 10 Bets</h2>
+          <h2 className='m-2 '>Week 11 Bets</h2>
+          <p className='bet'>none placed</p>
+          </div>
+          <div className='card border-black text-center m-3 week'>
+          <h2 className='m-2 '>Week 12 Bets</h2>
+          <p className='bet'>none placed</p>
+          </div>
+          <div className='card border-black text-center m-3 week'>
+          <h2 className='m-2 '>Week 13 Bets</h2>
+          <p className='bet'>none placed</p>
+          </div>
+          <div className='card border-black text-center m-3 week'>
+          <h2 className='m-2 '>Week 14 Bets</h2>
           <p className='bet'>none placed</p>
           </div>
       </div>
